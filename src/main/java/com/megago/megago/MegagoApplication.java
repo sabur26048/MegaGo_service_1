@@ -13,7 +13,6 @@ import io.github.cdimascio.dotenv.Dotenv;
 @SpringBootApplication(exclude = {DataSourceAutoConfiguration.class, HibernateJpaAutoConfiguration.class})
 @RestController
 public class MegagoApplication {
-//hh
     @GetMapping("/hello")
     public String check() {
         return "Hello World";
